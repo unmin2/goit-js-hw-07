@@ -20,10 +20,6 @@ function createGalleryItemsMarkup(items) {
 };
 function onImgClick(e) {
     e.preventDefault();
-      const datasetSource = e.target.dataset.source;
-  if (!datasetSource) return;
-  instance.element().querySelector('img').src = datasetSource;
-  instance.show();
 }
 const lightbox = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
