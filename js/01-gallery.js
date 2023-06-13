@@ -34,7 +34,7 @@ const instance = basicLightbox.create(
     },
   }
 );
-instance.show()
+
 
 function onImgClick(e) {
   e.preventDefault();
@@ -46,6 +46,6 @@ function onImgClick(e) {
 
 function onEscKeyPress(e) {
   if (e.code !== 'Escape') return;
-  instance.close();
+  instance.remove();
 }
 console.log(galleryItems);
