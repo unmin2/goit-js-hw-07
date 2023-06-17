@@ -1,0 +1,15 @@
+{
+  "folders": [
+	{
+		"name": "src 5",
+		"path": "../../../../Downloads/src 5"
+	},
+	{
+		"name": "goit-js-hw-07",
+		"path": ".."
+	}
+],
+  "settings": {
+    "liveServer.settings.multiRootWorkspaceName": "goit-js-hw-07"
+  }
+}
